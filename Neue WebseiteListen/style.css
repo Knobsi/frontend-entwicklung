@@ -1,0 +1,46 @@
+
+
+				
+						p
+							{
+								text-align: center;
+								color: red;
+								font-size: 100px;
+							
+								
+
+
+							}
+						
+						
+						body
+						{
+							text-align: auto;
+							color: rgb(255, 0, 0);
+							background-image: url('css-background-effects-thumb.jpg');
+							background-attachment: fixed;
+							background-repeat: no-repeat;
+							background-size: 100%,100%;
+							margin:0 auto;
+							font-size: medium;
+							
+
+							
+						}
+						ol{background-color: white;}
+						ul{background-color: white;}
+						dl{background-color: white;}
+						pre
+						{
+							color: blue;
+							font-size: x-large;
+						}
+						h1
+						{
+							font-size: 100px;
+							color: white;
+							text-align: center;
+						}
+						
+						
+	
