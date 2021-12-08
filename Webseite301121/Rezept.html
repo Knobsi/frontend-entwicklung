@@ -3,14 +3,14 @@
     <head>
         <title>Meine seite</title>
         <link rel="stylesheet" href="style-DESKTOP-AS5RE4J.css">
-        
+        	
     </head>
     
     <body>
         <div class="navigation">
             <a href="index.html">Startseite</a>
             <a class ="active"href="Rezept.html">Mein Rezept</a>
-            <a href="AndereSeite.html">Sein Rezept</a>
+            <a href="juels/rezeptjuel.html">Sein Rezept</a>
         </div>
 
         <h1>Mein Rezept</h1>
@@ -34,20 +34,48 @@
             <li>	Salz und Pfeffer</li>
         </ul>
         <p>Zubereitung</p>
-        <pre>
+
+        
+
+        <p id="p1">
+        
             Alle Teigzutaten zu einem geschmeidigen Teig kneten. Es muss kein Vorteig erstellt werden!
-Teig in zwei gleiche Teile teilen und direkt ohne Gehzeit auf je einem mit Backpapier ausgelegten Blech kreisrund und dünn ausrollen.
-Tipp: Auf das Backpapier noch etwas Mehl geben, so dass man die Calzone später besser zusammenklappen kann.
+        Teig in zwei gleiche Teile teilen und direkt ohne Gehzeit auf je einem mit Backpapier ausgelegten Blech kreisrund und dünn ausrollen.
+        Tipp: Auf das Backpapier noch etwas Mehl geben, so dass man die Calzone später besser zusammenklappen kann.
 
-Die Tomaten in eine Schüssel geben und mit etwas Oregano, Basilikum, Thymian, Salz und Pfeffer würzen. Nach Belieben kann man auch Zwiebel- und Knoblauchpulver hinzugeben.
+        Die Tomaten in eine Schüssel geben und mit etwas Oregano, Basilikum, Thymian, Salz und Pfeffer würzen. Nach Belieben kann man auch Zwiebel- und Knoblauchpulver hinzugeben.
 
-Die Soße nun auf auf den Hälften der kreisrunden Teige zu gleichen Teilen verteilen. Es sollten zwei EL übrig bleiben um die Calzone damit von außen zu bestreichen.
+        Die Soße nun auf auf den Hälften der kreisrunden Teige zu gleichen Teilen verteilen. Es sollten zwei EL übrig bleiben um die Calzone damit von außen zu bestreichen.
 
-Nun mit Salami, Schinken, Champignons und zuletzt mit Käse belegen. Auch hier sollte etwas Käse für außen übrig bleiben.
+        Nun mit Salami, Schinken, Champignons und zuletzt mit Käse belegen. Auch hier sollte etwas Käse für außen übrig bleiben.
 
-Vorsichtig und mit Hilfe des Backpapiers die Calzone zuklappen und die Ränder verstreichen, damit kein Saft austritt. Fürs Auge obenauf noch etwas Tomaten verstreichen und ein bisschen Käse drauf streuen.
+        Vorsichtig und mit Hilfe des Backpapiers die Calzone zuklappen und die Ränder verstreichen, damit kein Saft austritt. Fürs Auge obenauf noch etwas Tomaten verstreichen und ein bisschen Käse drauf streuen.
 
-Im vorgeheizten Ofen bei 250 °C 10 - 12 Minuten goldbraun backen.
-        </pre>
+        Im vorgeheizten Ofen bei 250 °C 10 - 12 Minuten goldbraun backen.
+        
+        
+    </p>
+    <select onchange="myFunction(this);" size="5">
+        <option>0
+        <option>0.2
+        <option>0.5
+        <option>0.8
+        <option selected="selected">1
+      </select>
+
+      <script>
+        function myFunction(x) {
+          var opacity = x.options[x.selectedIndex].text;
+          var el = document.getElementById("p1");
+          if (el.style.opacity !== undefined) {
+            el.style.opacity = opacity;
+          }
+        }
+        </script>
+        <footer>
+
+            <p>Dies ist die webseite des Königs das ist ein impressum</p>
+    
+         </footer>
     </body>
 </html>

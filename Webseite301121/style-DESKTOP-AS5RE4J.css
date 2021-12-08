@@ -36,3 +36,29 @@ body {
   color: white;
 }
 
+.Picture {
+	
+	padding: 20px; 
+	float: left;
+	
+  }
+
+footer{
+
+  padding: 50px 20px;
+  background: rgb(0, 0, 0);
+  color: white;
+  width: auto;
+}
+
+p{
+  font-size: large;
+  text-align: center;
+}
+
+#p1{
+
+  background-color: white;
+  
+}
+
