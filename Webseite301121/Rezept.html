@@ -3,15 +3,29 @@
     <head>
         <title>Meine seite</title>
         <link rel="stylesheet" href="style-DESKTOP-AS5RE4J.css">
-        	
+        	<script src="script.js"></script>
     </head>
     
     <body>
-        <div class="navigation">
+        <div id="burger">
+        <div class="sidenav">
+            <p style="color: rgb(255, 255, 255);">Hier steht text könnte auch ein impresuum sein oder sowas oder buttons bilder oder sonstwas</p>
+            <a href="Rezept.html"><img src="schnelle-calzone.png" alt="meins" width="120" height="120"  border: 0;></a>
+            <a href="juels/rezeptjuel.html"><img src="juels/den-deutschen-ihr-doener-davon.jpg" alt="juels" width="120" height="120"  border: 0;></a>
             <a href="index.html">Startseite</a>
-            <a class ="active"href="Rezept.html">Mein Rezept</a>
+            <a href="Rezept.html">Mein Rezept</a>
             <a href="juels/rezeptjuel.html">Sein Rezept</a>
-        </div>
+            <p style="color: white;">Meine FETTTE seite</p>
+          </div>
+
+        
+        <div class="main">
+            
+            <div class="navigation">
+                <a href="index.html">Startseite</a>
+                <a class ="active"href="Rezept.html">Mein Rezept</a>
+                <a href="juels/rezeptjuel.html">Sein Rezept</a>
+            </div>
 
         <h1>Mein Rezept</h1>
         <img src="schnelle-calzone.png" height="300" width="300">
@@ -62,20 +76,13 @@
         <option>0.8
         <option selected="selected">1
       </select>
-
-      <script>
-        function myFunction(x) {
-          var opacity = x.options[x.selectedIndex].text;
-          var el = document.getElementById("p1");
-          if (el.style.opacity !== undefined) {
-            el.style.opacity = opacity;
-          }
-        }
-        </script>
+        </div>
+        
         <footer>
 
             <p>Dies ist die webseite des Königs das ist ein impressum</p>
     
          </footer>
+        </div>
     </body>
 </html>
